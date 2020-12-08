@@ -1,0 +1,13 @@
+{
+  "name": "jqcm-uni",
+  "version": "1.4.0",
+  "description": "极道仙尊Helper的uni版本",
+  "author": "xuchangfan",
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "js-rsa": "^1.0.2",
+    "moment": "^2.24.0",
+    "vue-clipboard2": "^0.3.1"
+  },
+  "devDependencies": {}
+}

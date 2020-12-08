@@ -130,7 +130,9 @@
 					if (res.version > this.$options.globalData.viewConfig.version) {
 						this.$options.globalData.viewConfig = res
 						save.setViewConfigLocal(res)
+						// #ifdef APP-PLUS  
 						plus.runtime.restart() // 重启APP让新的配置文件生效
+						// #endif
 					}
 				})
 			}

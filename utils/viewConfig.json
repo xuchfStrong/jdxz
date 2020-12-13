@@ -1,5 +1,5 @@
 {
-  "version": 122,
+  "version": 123,
   "switchConfig": [
     {"label": "自动升级聚灵池", "key": "is_shengji_lingchi"},
     {"label": "自动招募", "key": "is_zhaomu"},
@@ -14,7 +14,9 @@
     {"label": "仙兽山挑战次数买满", "key": "is_goumai_tiaozhan"},
     {"label": "仙兽山炼化次数逐次购买", "key": "is_goumai_lianhua"},
     {"label": "自动寻仙问道", "key": "is_xunxian_wendao"},
-    {"label": "自动宗门战(VIP有效)", "key": "is_zongmenzhan"}
+    {"label": "自动宗门战(VIP有效)", "key": "is_zongmenzhan"},
+    {"label": "自动切换高收入跨服仙城", "key": "is_kuafu_xianyu"},
+    {"label": "寻仙问道次数买满", "key": "is_buy_kill_times"}
   ],
   "pickerSwitchConfig": [
     {"label": "自动历练", "key": "lilian_type"},
@@ -27,11 +29,13 @@
     {"label": "炼化仙兽2", "key": "shenshou_id2"},
     {"label": "炼化仙兽3", "key": "shenshou_id3"},
     {"label": "炼化仙兽4", "key": "shenshou_id4"},
-    {"label": "自动炼丹", "key": "liandan_type"}
+    {"label": "自动炼丹", "key": "liandan_type"},
+    {"label": "自动购买精炼石", "key": "buy_jinglianshi_type"}
   ],
   "gameInfoConfig": [
     {"label": "角色信息", "key": "roleInfoConfig"},
-    {"label": "任务信息", "key": "taskInfoConfig"}
+    {"label": "任务信息", "key": "taskInfoConfig"},
+    {"label": "跨服仙城", "key": "weimianInfoConfig"}
   ],
   "roleInfoConfig": [
     {"label": "境界：", "key": "role_level"},
@@ -64,7 +68,7 @@
     {"label": "兵力：", "key": "weimian_bingli"},
     {"label": "攻击令：", "key": "weimian_gongjiling"},
     {"label": "食物：", "key": "weimian_shiwu"},
-    {"label": "位置：", "key": "weimian_weizhi"}
+    {"label": "位置：", "key": "weimian_weizhi", "columnSize": 1}
   ],
   "gongfaConfig": [
     {"label": "攻击", "key": "gongji"},
@@ -111,7 +115,10 @@
     "is_zongmenzhan": 0,
     "gongfagoumai":"101010101010",
     "yiji_gongji_type": 0,
-    "liandan_type": 0
+    "liandan_type": 0,
+    "is_kuafu_xianyu": 0,
+    "is_buy_kill_times": 0,
+    "buy_jinglianshi_type": 0
   },
   "roleInfoDefault": {
     "userid": "",
@@ -142,7 +149,11 @@
     "shenshou_lianhua_times": "",
     "shenshou_tiaozhan_times": "",
     "lilianshiwu": "",
-    "xunxian_wendao_times": ""
+    "xunxian_wendao_times": "",
+    "weimian_weizhi": "",
+    "weimian_bingli": "",
+    "weimian_gongjiling": "",
+    "weimian_shiwu": ""
   },
   "options": {
     "lilian_type": [
@@ -446,6 +457,15 @@
       {"value":12,"text":" 自动炼制游仙境渡劫丹  "},
       {"value":13,"text":"  自动炼制真仙境渡劫丹   "},  
       {"value":14,"text":" 自动炼制玄仙境渡劫丹  "}
+    ],
+    "buy_jinglianshi_type":[
+      {"value":0,"text":"关闭自动购买精炼石"},
+      {"value":1,"text":"超过5亿灵币自动购买"},
+      {"value":2,"text":"超过10亿灵币自动购买"},
+      {"value":3,"text":"超过15亿灵币自动购买"},
+      {"value":4,"text":"超过20亿灵币自动购买"},
+      {"value":5,"text":"超过50亿灵币自动购买"},
+      {"value":6,"text":"超过100亿灵币自动购买"}
     ]
   }
 }

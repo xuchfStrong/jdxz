@@ -1,5 +1,5 @@
 {
-  "version": 125,
+  "version": 126,
   "switchConfig": [
     {"label": "自动升级聚灵池", "key": "is_shengji_lingchi"},
     {"label": "自动招募", "key": "is_zhaomu"},
@@ -16,7 +16,12 @@
     {"label": "自动寻仙问道", "key": "is_xunxian_wendao"},
     {"label": "自动宗门战(VIP有效)", "key": "is_zongmenzhan"},
     {"label": "自动切换高收入跨服仙城", "key": "is_kuafu_xianyu"},
-    {"label": "寻仙问道次数买满", "key": "is_buy_kill_times"}
+    {"label": "寻仙问道次数买满", "key": "is_buy_kill_times"},
+    {"label": "每日试炼-购买灵币", "key": "is_goumai_coin_daily_times"},
+    {"label": "每日试炼-购买精炼石", "key": "is_goumai_refine_daily_times"},
+    {"label": "每日试炼-购买进阶丹", "key": "is_goumai_step_daily_times"},
+    {"label": "每日试炼-购买升星丹", "key": "is_goumai_shengxing_daily_times"},
+    {"label": "每日试炼-购买注灵石", "key": "is_goumai_zhuling_daily_times"}
   ],
   "pickerSwitchConfig": [
     {"label": "自动历练", "key": "lilian_type"},
@@ -118,7 +123,12 @@
     "liandan_type": 0,
     "is_kuafu_xianyu": 0,
     "is_buy_kill_times": 0,
-    "buy_jinglianshi_type": 0
+    "buy_jinglianshi_type": 0,
+    "is_goumai_coin_daily_times":0,
+    "is_goumai_refine_daily_times":0,
+    "is_goumai_step_daily_times":0,
+    "is_goumai_shengxing_daily_times":0,
+    "is_goumai_zhuling_daily_times":0
   },
   "roleInfoDefault": {
     "userid": "",

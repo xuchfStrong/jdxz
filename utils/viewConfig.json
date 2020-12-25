@@ -1,5 +1,5 @@
 {
-  "version": 126,
+  "version": 127,
   "switchConfig": [
     {"label": "自动升级聚灵池", "key": "is_shengji_lingchi"},
     {"label": "自动招募", "key": "is_zhaomu"},
@@ -21,7 +21,9 @@
     {"label": "每日试炼-购买精炼石", "key": "is_goumai_refine_daily_times"},
     {"label": "每日试炼-购买进阶丹", "key": "is_goumai_step_daily_times"},
     {"label": "每日试炼-购买升星丹", "key": "is_goumai_shengxing_daily_times"},
-    {"label": "每日试炼-购买注灵石", "key": "is_goumai_zhuling_daily_times"}
+    {"label": "每日试炼-购买注灵石", "key": "is_goumai_zhuling_daily_times"},
+    {"label": "自动炼制一阶法宝", "key": "is_lianfabao"},
+    {"label": "自动炼制一阶命格", "key": "is_lianmingge"}
   ],
   "pickerSwitchConfig": [
     {"label": "自动历练", "key": "lilian_type"},
@@ -128,7 +130,9 @@
     "is_goumai_refine_daily_times":0,
     "is_goumai_step_daily_times":0,
     "is_goumai_shengxing_daily_times":0,
-    "is_goumai_zhuling_daily_times":0
+    "is_goumai_zhuling_daily_times":0,
+    "is_lianfabao": 0,
+    "is_lianmingge": 0
   },
   "roleInfoDefault": {
     "userid": "",

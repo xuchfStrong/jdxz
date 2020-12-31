@@ -922,7 +922,7 @@ export default {
 				toast("复制失败,没有选择服务器或者没有登录")
 				return
 			}
-			const cpText = `服务器:${this.userInfo.server}, 续费ID:${this.userInfo.userId}`
+			const cpText = `服务器:${this.userInfo.server},续费ID:${this.userInfo.userId},游戏:fsxl`
 			// #ifdef APP-PLUS
 			uni.setClipboardData({
 				data: String(cpText),

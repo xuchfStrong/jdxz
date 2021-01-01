@@ -1,5 +1,5 @@
 {
-  "version": 127,
+  "version": 128,
   "switchConfig": [
     {"label": "自动升级聚灵池", "key": "is_shengji_lingchi"},
     {"label": "自动招募", "key": "is_zhaomu"},
@@ -37,7 +37,9 @@
     {"label": "炼化仙兽3", "key": "shenshou_id3"},
     {"label": "炼化仙兽4", "key": "shenshou_id4"},
     {"label": "自动炼丹", "key": "liandan_type"},
-    {"label": "自动购买精炼石", "key": "buy_jinglianshi_type"}
+    {"label": "自动购买精炼石", "key": "buy_jinglianshi_type"},
+    {"label": "聚灵阵火袭", "key": "julingzhen_jingong_type"},
+    {"label": "聚灵阵建造", "key": "julingzhen_jianzao_type"}
   ],
   "gameInfoConfig": [
     {"label": "角色信息", "key": "roleInfoConfig"},
@@ -132,7 +134,9 @@
     "is_goumai_shengxing_daily_times":0,
     "is_goumai_zhuling_daily_times":0,
     "is_lianfabao": 0,
-    "is_lianmingge": 0
+    "is_lianmingge": 0,
+    "julingzhen_jingong_type": 0,
+    "julingzhen_jianzao_type": 0
   },
   "roleInfoDefault": {
     "userid": "",
@@ -640,6 +644,23 @@
       {"value":4,"text":"超过20亿灵币自动购买"},
       {"value":5,"text":"超过50亿灵币自动购买"},
       {"value":6,"text":"超过100亿灵币自动购买"}
+    ],
+    "julingzhen_jianzao_type":[
+      {"value":0,"text":"关闭聚灵阵自动建造"},
+      {"value":1,"text":"黄阶灵阵/免费"},
+      {"value":2,"text":"玄阶灵阵  /150仙缘"},
+      {"value":3,"text":"地阶灵阵  /300仙缘"},
+      {"value":4,"text":"天阶灵阵  /450仙缘"},
+      {"value":5,"text":"黄阶灵阵  +买满次数"},  
+      {"value":6,"text":"玄阶灵阵  +买满次数"},
+      {"value":7,"text":"地阶灵阵  +买满次数"}, 
+      {"value":8,"text":"天阶灵阵  +买满次数"}
+    ],
+    "julingzhen_jingong_type":[
+      {"value":0,"text":"关闭聚灵阵自动火袭"},
+      {"value":1,"text":"火袭黄阶/玄阶/地阶"},
+      {"value":2,"text":"火袭玄阶/地阶"},
+      {"value":3,"text":"火袭地阶"}
     ]
   }
 }

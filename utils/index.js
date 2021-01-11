@@ -205,6 +205,7 @@ export function getChannel() {
     "8016": "6",
     "8017": "7",
     "8018": "8",
+    "8019": "9",
   }
   const port = window.location.port
   return channelMap[port]

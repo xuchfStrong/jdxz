@@ -35,6 +35,8 @@
 							pkgUrl = data.pkgUrl7
 						} else if (saleChannel === '8') {
 							pkgUrl = data.pkgUrl8
+						} else if (saleChannel === '9') {
+							pkgUrl = data.pkgUrl9
 						}
 			      if (data.version > that.$global.fuzhuVersion && wgtUrl && data.updateType ===1 ) {  // 热更新
 								// uni.showModal({
